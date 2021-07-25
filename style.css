@@ -221,7 +221,7 @@ h1{
 }
 
 .page-about{
-    height:800px;
+    height:750px;
 }
 
 .hades-about{
@@ -239,7 +239,7 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-weight:600;
     position:relative;
-    top:70px;
+    top:80px;
     font-size:30px;
 }
 
@@ -247,7 +247,7 @@ h1{
     margin:6px;
     position:relative;
     position:relative;
-    top:70px;
+    top:100px;
 }
 
 .pictures img{
@@ -262,4 +262,15 @@ h1{
 .pictures img:hover{
 filter:grayscale(0%);
 transform: scale(1.1);
+}
+
+section{
+    background:url('images/dumbbell\ image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-page{
+height:700px;
 }
