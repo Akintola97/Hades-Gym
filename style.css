@@ -1,0 +1,265 @@
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    position:sticky;
+    z-index: 999;
+} 
+
+
+
+
+
+
+
+.navbar{
+    background:black;
+    height:70px;
+    animation:nav-load 1s ease-in 500ms;
+    animation-fill-mode: forwards;
+    animation-delay:0s;
+    transform: translateY(-20px);
+    opacity:0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+@keyframes nav-load {
+    0%{
+        transform:translateX(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0px);
+        Opacity:1;
+    }   
+}
+
+#logo{
+    color:white;
+    font-size:22px;
+    transition:0.3 ease;
+    border-top:none solid;
+    border-bottom:none solid;
+    padding:4px 0;
+    margin:0 5px;
+    text-decoration: none;
+    
+}
+
+#logo:hover{
+    border-top:none gold;
+    border-bottom:none gold;
+    padding:10px 0;
+    color:gold;
+    margin:0 5px
+}
+
+nav a{
+    color:white;
+    font-size:17px;
+    transition:0.45 ease;
+    border-top:0.4px  gold;
+    border-bottom:0.4px gold;
+    padding:4px 0;
+    margin:0 5px;
+}
+
+nav a:hover{
+    border-top:none gold;
+    border-bottom:none gold;
+    padding:10px 0;
+    color:gold;
+}
+
+
+
+ main{
+    background:url(images/dumbbell\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.access{
+    height:680px;
+}
+
+.center{
+    margin:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:gold;
+    background:transparent;
+    border:none;
+    border-radius:none;
+    outline:none;
+    cursor:pointer;
+    font-size: 25px;
+    font-weight: 600;
+    animation-name:welcome-load;
+    animation-delay: 0s;
+    animation-duration:2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transition:0.35s ease;
+    
+}
+
+@keyframes welcome-load{
+    0%{
+        transform:translateX(-20px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity:1;
+    }
+}
+
+.center:hover{
+    color:pink;
+    padding: 6px 0;
+
+}
+
+
+.social-media{
+    margin:0;
+    position:fixed;
+    top:50%;
+    right:5px;
+    transform:translateY(-50%);
+    animation-name:social-load;
+    animation-duration:1.5s;
+    animation-delay:1s;
+    animation-fill-mode:forwards;
+    animation-timing-function:ease-in;
+    opacity:0;
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    z-index: 9999;
+    width: 100%;
+    
+}
+
+
+@keyframes social-load{
+    0%{
+        transform:translateX(-20px);
+        opacity:0;
+    
+}
+100%{
+    transform:translateY(0px);
+    opacity:1;
+}
+}
+
+
+
+.social-media ul{
+    margin:0;
+    padding:0;
+
+   
+}
+
+.social-media ul li{
+    list-style-type:none;
+    margin:5px;
+    transition:0.35s;
+}
+.social-media ul li:hover{
+    list-style-type:none;
+    margin:5px;
+    transition:0.35s;
+    color:gold;
+    padding: 6px 0;
+}
+
+.social-media ul li a{
+    width:50px;
+    height:50px;
+   line-height:50px;
+   font-size: 20px;
+   color:#fff;
+   background: pink;
+   display: block;
+   text-align: center;
+   position:relative;
+   transition:0.35s;
+}
+.social-media ul li a:hover{
+        color:gold;
+        padding: 6px 0;
+    }
+
+body{
+        background:url(images/dumbbell\ image.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:gold;
+    position:relative;
+    top:65px;
+
+}
+
+.page-about{
+    height:800px;
+}
+
+.hades-about{
+    font-family:cursive;
+    color:White;
+    position:relative;
+    top:12px;
+    font-weight:600;
+    position:relative;
+    top:65px;
+}
+
+.meet{
+    color:firebrick;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:600;
+    position:relative;
+    top:70px;
+    font-size:30px;
+}
+
+.pictures{
+    margin:6px;
+    position:relative;
+    position:relative;
+    top:70px;
+}
+
+.pictures img{
+    padding:5px;
+    position:relative;
+    top:15px;
+    filter:grayscale(100%);
+    transition:1s;
+    transition-delay:0ms;
+}
+
+.pictures img:hover{
+filter:grayscale(0%);
+transform: scale(1.1);
+}
