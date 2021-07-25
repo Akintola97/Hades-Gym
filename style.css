@@ -263,7 +263,7 @@ h1{
 filter:grayscale(0%);
 transform: scale(1.1);
 }
-
+/*contact section */
 section{
     background:url('images/dumbbell\ image.jpg');
     background-size: cover;
@@ -273,4 +273,90 @@ section{
 
 .contact-page{
 height:700px;
+}
+
+.contact-us{
+    color:white;
+}
+
+
+#connect{
+    font-weight:600;
+}
+
+#form{
+    font-weight:300;
+
+}
+
+#name-enter{
+font-family:cursive;
+position: relative;
+top:100px;
+}
+
+#name-bar{
+    width:285px;
+    position:relative;
+    top:100px;
+}
+
+#name-bar::placeholder{
+color:gold
+}
+
+#email{
+    font-family: cursive;
+    position:relative;
+    top:100px;
+}
+
+#email-bar{
+    width:285px;
+    position:relative;
+    top:100px;
+}
+
+#email-bar::placeholder{
+    color:gold;
+}
+
+
+#content{
+    font-family: cursive;
+    position:relative;
+    top:100px;
+}
+
+.writing{
+    width:400px;
+    height:100px;
+    resize: none;
+    position:relative;
+    top:100px;
+    
+}
+
+.writing::placeholder{
+    position:absolute;
+    color:gold;
+    
+}
+
+
+.click{
+    color:darkkhaki;
+    border:none;
+    border-radius:4px;
+    background: grey;
+}
+
+.click:hover{
+    color:pink;
+    transition:0.35s;
+}
+
+.motivation{
+    position:relative;
+    top:40px;
 }
